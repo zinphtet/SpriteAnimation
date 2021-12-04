@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	height: 100vh;
+}
+canvas {
+	width: 300px;
+	height: 300px;
+}
+.choice_area {
+	text-align: center;
+	margin-bottom: 20px;
+}
+label {
+	font-size: 120%;
+}
+select {
+	padding: 5px;
+	border-radius: 0 !important;
+	outline: none;
+	margin: 0px 10px;
+	cursor: pointer;
+}
